@@ -13,9 +13,8 @@
 
 </head>
 <body class="kal-jh-regist-body">
-<jsp:include page="/WEB-INF/views/common/main-gnb.jsp" flush="false"/>	
-
 <div class="kal-jh-regist-main-wrapper">
+	<a class="kal-regist-main-logo" href="javascript:void(0)"><img src="/web/resources/img/reservation/koreanAirLogo.png"></a>
 	<div class="kal-jh-regist-sub-wrapper1">
  	 	<h1>회원가입</h1>
 		<span class="kal-jh-regist-headerText">영문이름은 여권상의 이름과 동일하게 입력하여 주시기 바랍니다.</span>
@@ -50,17 +49,18 @@
 			<span class="kal-jh-regist-inputBox-text-birth">생년월일</span>
 			<input class="kal-jh-regist-inputBox-birth" type="text" name="birth" placeholder="생년월일 / 19890405"/>
 		</div>
-		<div class="kal-jh-regist-area8">
-			<span class="kal-jh-regist-inputBox-text-email">이메일</span>
-			<input class="kal-jh-regist-inputBox-email" type="text" name="email" placeholder="이메일"/>
-		</div>
-		<div class="kal-jh-regist-area9">
-			<span class="kal-jh-regist-inputBox-text-addr">주소지</span>
-			<input class="kal-jh-regist-inputBox-addr" type="text" name="addr" placeholder="주소"/>
-		</div>
 		<div class="kal-jh-regist-area10">
 			<span class="kal-jh-regist-inputBox-text-passportno">여권번호</span>
 			<input class="kal-jh-regist-inputBox-passportno" type="text" name="passportno" placeholder="여권번호"/>
+		</div>
+		<div class="kal-jh-regist-area8">
+			<span class="kal-jh-regist-inputBox-text-email">이메일</span>
+			<input class="kal-jh-regist-inputBox-email" type="text" name="email" placeholder="이메일"/><button class="kal-jh-regist-inputBox-email-btn">본인인증</button>
+		</div>
+		<div class="kal-jh-regist-area9">
+			<span class="kal-jh-regist-inputBox-text-addr">주소지</span>
+			<input class="kal-jh-regist-inputBox-addr1" type="text" name="addr" placeholder="주소"/><button class="kal-jh-regist-inputBox-addr-btn">주소찾기</button>
+			<input class="kal-jh-regist-inputBox-addr2" type="text" name="addr" placeholder="상세주소"/>
 		</div>
 		<div class="kal-jh-regist-area11">
 			<span class="kal-jh-regist-inputBox-text-gender">성별</span>
@@ -75,5 +75,10 @@
 
 <jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/> 
 </body>
-
+<script>
+$('.kal-regist-main-logo').on('click',function(){
+	alert('메인 페이지로 돌아갑니다.');
+	location.href="${context}/";
+});
+</script>
 </html>

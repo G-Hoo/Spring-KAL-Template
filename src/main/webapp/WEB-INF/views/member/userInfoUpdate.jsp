@@ -34,7 +34,8 @@
 	     <div class="kal-jh-mypage-userUpdate-txt3">
 		         <span class="kal-jh-mypage-userUpdate-email-text">새 이메일</span><input class="kal-jh-mypage-userUpdate-email" name="newemail" placeholder="새 이메일"></br>
 		         <span class="kal-jh-mypage-userUpdate-phoneno-text">새 연락처</span><input class="kal-jh-mypage-userUpdate-phoneno" name="newphoneno" placeholder="새 연락처"></br>
-		         <span class="kal-jh-mypage-userUpdate-addr-text">새 주소지</span><input class="kal-jh-mypage-userUpdate-addr" name="newaddr" placeholder="새 주소지">
+		         <span class="kal-jh-mypage-userUpdate-addr-text">새 주소지</span><input class="kal-jh-mypage-userUpdate-addr1" name="newaddr" placeholder="새 주소지"><button class="kal-jh-mypage-userUpdate-addr-btn">주소찾기</button></br>
+		         															    <input class="kal-jh-mypage-userUpdate-addr2" name="newaddr" placeholder="상세주소">
 		 </div>
      </div>
      <div class="kal-jh-mypage-userUpdate-content-wrapper4">

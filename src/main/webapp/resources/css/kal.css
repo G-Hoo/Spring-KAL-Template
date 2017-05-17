@@ -1122,9 +1122,14 @@
 .kal-jh-regist-main-wrapper{
 	width:100%;
 }
+.kal-regist-main-logo{
+	display:block;
+	margin:40px auto 0;
+	text-align:center;
+}
 .kal-jh-regist-sub-wrapper1{
-	width:450px;
-	margin:80px auto 0;
+	width:500px;
+	margin:40px auto 0;
 	border:1px solid #0180a3;
 	padding:30px 50px;
 	border-bottom:none;
@@ -1198,7 +1203,7 @@
     border: 1px solid #0180a3;
 }
 .kal-jh-regist-sub-wrapper2{
-	width:450px;
+	width:500px;
 	margin:0 auto 80px;
 	border:1px solid #0180a3;
 	padding:30px 50px 0;
@@ -1284,7 +1289,7 @@
 	padding-right:60px;
 }
 .kal-jh-regist-inputBox-email{
-	width:200px;
+	width:250px;
 	padding:10px;
 	font-size:14px;
 	letter-spacing:1px;
@@ -1298,8 +1303,8 @@
 .kal-jh-regist-inputBox-text-addr{
 	padding-right:60px;
 }
-.kal-jh-regist-inputBox-addr{
-	width:200px;
+.kal-jh-regist-inputBox-addr1{
+	width:250px;
 	padding:10px;
 	font-size:14px;
 	letter-spacing:1px;
@@ -1307,11 +1312,102 @@
 	border-radius: 5px;
     border: 1px solid #0180a3;
 }
+.kal-jh-regist-inputBox-addr2{
+	display:block;
+	width:250px;
+	padding:10px;
+	font-size:14px;
+	letter-spacing:1px;
+	margin:20px 112px 0;
+	border-radius: 5px;
+    border: 1px solid #0180a3;
+}
+.kal-jh-regist-inputBox-addr-btn{
+	margin-left:10px;
+	background-color:#0180a3;
+	width:100px;
+	color:white;
+	font-size:16px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7.5px 5px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+}
+.kal-jh-regist-inputBox-addr-btn:hover{
+	color:white;
+	border:1px solid #186686;
+	background:#094f68;
+	transition:0.5s;
+}
+.kal-jh-regist-inputBox-email-btn{
+	margin-left:10px;
+	background-color:#0180a3;
+	width:100px;
+	color:white;
+	font-size:16px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7.5px 5px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+}
+.kal-jh-regist-inputBox-email-btn:hover{
+	color:white;
+	border:1px solid #186686;
+	background:#094f68;
+	transition:0.5s;
+}
+.kal-jh-auth-head-text{
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	color:#0180a3;
+	letter-spacing:1px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.kal-jh-auth-wrapper{
+	width:100%;
+	text-align:center;
+	padding:10px 0;
+}
+.kal-jh-auth-input{
+	width:250px;
+	padding:10px;
+	font-size:14px;
+	letter-spacing:1px;
+	text-align:center;
+	margin:0 auto 20px;
+	border-radius: 5px;
+    border: 1px solid #0180a3;
+}
+.kal-jh-auth-submit-btn{
+	margin-left:10px;
+	background-color:#0180a3;
+	width:100px;
+	color:white;
+	font-size:16px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7.5px 5px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+}
+.kal-jh-auth-submit-btn:hover{
+	color:white;
+	border:1px solid #186686;
+	background:#094f68;
+	transition:0.5s;
+}
 .kal-jh-regist-area9{
 	padding-bottom:20px;
 }
 .kal-jh-regist-inputBox-text-passportno{
-	padding-right:46px;
+	padding-right:44px;
 }
 .kal-jh-regist-inputBox-passportno{
 	width:200px;
@@ -1559,14 +1655,43 @@
 	padding-right:32px;
 	font-weight:bold;
 }
-.kal-jh-mypage-userUpdate-addr{
-	width:450px;
+.kal-jh-mypage-userUpdate-addr1{
+	width:300px;
 	padding:10px;
 	font-size:14px;
 	letter-spacing:1px;
 	margin:10px auto;
 	border-radius: 5px;
     border: 1px solid #0180a3;
+}
+.kal-jh-mypage-userUpdate-addr2{
+	display:inline-block;
+	width:300px;
+	padding:10px;
+	font-size:14px;
+	letter-spacing:1px;
+	margin:10px 102px 0;
+	border-radius: 5px;
+    border: 1px solid #0180a3;
+}
+.kal-jh-mypage-userUpdate-addr-btn{
+	margin-left:10px;
+	background-color:#0180a3;
+	width:100px;
+	color:white;
+	font-size:16px;
+	border-radius:3px;
+	cursor:pointer;
+	padding:7.5px 5px;
+	display:inline-block;
+	box-shadow:0 1px 2px 1px rgba(0,0,0,0.2);
+	border:1px solid #0180a3;
+}
+.kal-jh-mypage-userUpdate-addr-btn:hover{
+	color:white;
+	border:1px solid #186686;
+	background:#094f68;
+	transition:0.5s;
 }
 .kal-jh-mypage-userUpdate-content-wrapper4{
 	text-align:center;
@@ -2658,6 +2783,18 @@
       background-position:left;
       background-repeat:no-repeat;
    }
+   .after-login-kal-main-right-menu-reservation-btn{
+      cursor:pointer;
+      padding:0 20px 0 40px;
+      height:40px;
+      background:none;
+      border:none;
+      font-size:18px;
+      color:#333;
+      background-image:url("/web/resources/img/main/top-nav-topMenu1.png");
+      background-position:left;
+      background-repeat:no-repeat;
+   }
    .kal-main-right-menu-skypass-btn{
       cursor:pointer;
       padding:0 20px 0 40px;
@@ -2703,7 +2840,23 @@
    	  display:inline-block;
       margin-bottom:3px;
    }
+   .after-login-kal-service-btn-content-faq{
+   	  display:inline-block;
+      margin-bottom:3px;
+   }
+   .kal-service-btn-content-question{
+   	  display:inline-block;
+      margin-bottom:3px;
+   }
+   .after-login-kal-service-btn-content-question{
+   	  display:inline-block;
+      margin-bottom:3px;
+   }
    .kal-service-btn-content-review{
+   	  display:inline-block;
+      margin-bottom:3px;
+   }
+   .after-login-kal-service-btn-content-review{
    	  display:inline-block;
       margin-bottom:3px;
    }
@@ -2955,6 +3108,16 @@
    kimhayun css end
 =============== 
 */
+
+
+
+
+
+
+
+
+
+
 
 
 

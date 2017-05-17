@@ -13,11 +13,7 @@ import com.kal.web.service.ScheduleService;
 @Controller
 public class AdminController {
 	private static final Logger logger = LoggerFactory.getLogger(AdminController.class);
-	 /*	@Autowired FlightService flightService;
-	 	@Autowired ScheduleService scheduleService;
-	 	@Autowired RouteService routeService;*/
 	   
-	
 		@RequestMapping("/goAdmin")
 		public String goAdmim(){
 			logger.info("HomeController  user()  {}.", "enter");

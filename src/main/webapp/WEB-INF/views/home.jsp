@@ -48,7 +48,13 @@
 		alert('마이페이지');
 		location.href="${context}/mypageUserInfo";
 	});
+	
+	$('#admin').on('click',function(){
+		alert('관리자페이지');
+		location.href="${context}/goAdmin";
+	});
 
+	
 	window.setInterval(function(){
 		var next = ($('.open').index()+1)%('.imgcount').length;
 		$('.open').removeClass('open').fadeOut(1500);
