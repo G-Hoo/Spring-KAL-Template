@@ -9,7 +9,6 @@
             <li role="presentation" class="kal-jh-mypage-navibar-li a"><a class="kal-jh-member-navi-membermodifybtn" href="#">회원정보 수정</a></li>
             <li role="presentation" class="kal-jh-mypage-navibar-li a"><a class="kal-jh-member-navi-memberreservebtn" href="#">나의예약</a></li>
             <li role="presentation" class="kal-jh-mypage-navibar-li a"><a class="kal-jh-member-navi-memberquitbtn" href="#">회원탈퇴</a></li>
-            <li role="presentation" class="kal-jh-mypage-navibar-li a"><a class="kal-jh-member-navi-membergradebtn" href="#">평점</a></li>
             <li role="presentation" class="kal-jh-mypage-navibar-li a"><a class="kal-jh-member-navi-memberreviewbtn" href="#">리뷰</a></li>
          </ul>
       </div>
@@ -30,11 +29,6 @@
 	   $('.kal-jh-member-navi-memberquitbtn').on('click',function(){
 		   alert('회원 탈퇴');
 		   location.href="${context}/userDeleteAccount";
-	   });
-	   
-	   $('.kal-jh-member-navi-membergradebtn').on('click',function(){
-		   alert('평점');
-		   location.href="${context}/grade";
 	   });
 	   $('.kal-jh-member-navi-memberreviewbtn').on('click',function(){
 		   alert('리뷰');

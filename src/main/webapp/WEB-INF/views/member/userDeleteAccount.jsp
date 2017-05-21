@@ -21,12 +21,11 @@
 		    <div class="kal-jh-mypage-userDelete-txt1">
 		         <span class="kal-jh-mypage-userDelete-pw-text">비밀번호 확인</span><input class="kal-jh-mypage-userDelete-pw" name="pwcheck" placeholder="비밀번호 확인">
 		         <button class="kal-jh-mypage-userDelete-submitBtn">회원 탈퇴</button>
+		         <p class="mypage-delete-pw-check-text"></p>
 		    </div>
 	     </div>
 	 </div>
 </div>
 </body>
-
 <jsp:include page="/WEB-INF/views/common/footer.jsp" flush="false"/>  
-
 </html>

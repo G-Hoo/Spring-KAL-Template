@@ -28,14 +28,18 @@
 	     <div class="kal-jh-mypage-userUpdate-txt2">
 		         <span class="kal-jh-mypage-userUpdate-id"><span class="kal-jh-mypage-userUpdate-id-text">아이디</span>Dannyhong89</span></br>
 		         <span class="kal-jh-mypage-userUpdate-pw-text">새 비밀번호</span><input class="kal-jh-mypage-userUpdate-pw" name="newpw" placeholder="새 비밀번호">
+		 		 <p class="mypage-update-pw-check-text"></p>
 		 </div>
      </div>
      <div class="kal-jh-mypage-userUpdate-content-wrapper3">
 	     <div class="kal-jh-mypage-userUpdate-txt3">
 		         <span class="kal-jh-mypage-userUpdate-email-text">새 이메일</span><input class="kal-jh-mypage-userUpdate-email" name="newemail" placeholder="새 이메일"></br>
+		         <p class="mypage-update-email-check-text"></p>
 		         <span class="kal-jh-mypage-userUpdate-phoneno-text">새 연락처</span><input class="kal-jh-mypage-userUpdate-phoneno" name="newphoneno" placeholder="새 연락처"></br>
+		         <p class="mypage-update-phoneno-check-text"></p>
 		         <span class="kal-jh-mypage-userUpdate-addr-text">새 주소지</span><input class="kal-jh-mypage-userUpdate-addr1" name="newaddr" placeholder="새 주소지"><button class="kal-jh-mypage-userUpdate-addr-btn">주소찾기</button></br>
 		         															    <input class="kal-jh-mypage-userUpdate-addr2" name="newaddr" placeholder="상세주소">
+		 	     <p class="mypage-update-addr-check-text"></p>
 		 </div>
      </div>
      <div class="kal-jh-mypage-userUpdate-content-wrapper4">

@@ -1202,17 +1202,27 @@
 	border-radius: 5px;
     border: 1px solid #0180a3;
 }
+.pw-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
+}
 .kal-jh-regist-sub-wrapper2{
 	width:500px;
 	margin:0 auto 80px;
 	border:1px solid #0180a3;
 	padding:30px 50px 0;
 }
-.kal-jh-regist-inputBox-text-korname{
-	padding-right:38px;
-}
 .kal-jh-regist-area3{
 	padding-bottom:20px;
+}
+.kal-jh-regist-inputBox-text-korname{
+	padding-right:38px;
 }
 .kal-jh-regist-inputBox-korname{
 	width:200px;
@@ -1223,9 +1233,22 @@
 	border-radius: 5px;
     border: 1px solid #0180a3;
 }
+.korname-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
+}
 .kal-jh-regist-inputBox-text-familyname{
 	font-family:'Malgun Gothic';
 	padding-right:12px;
+}
+.kal-jh-regist-area4{
+	padding-bottom:20px;
 }
 .kal-jh-regist-inputBox-familyname{
 	width:200px;
@@ -1236,7 +1259,17 @@
 	border-radius: 5px;
     border: 1px solid #0180a3;
 }
-.kal-jh-regist-area4{
+.familyname-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
+}
+.kal-jh-regist-area5{
 	padding-bottom:20px;
 }
 .kal-jh-regist-inputBox-text-firstname{
@@ -1252,7 +1285,17 @@
 	border-radius: 5px;
     border: 1px solid #0180a3;
 }
-.kal-jh-regist-area5{
+.firstname-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
+}
+.kal-jh-regist-area6{
 	padding-bottom:20px;
 }
 .kal-jh-regist-inputBox-text-phoneno{
@@ -1267,7 +1310,17 @@
 	border-radius: 5px;
     border: 1px solid #0180a3;
 }
-.kal-jh-regist-area6{
+.phoneno-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
+}
+.kal-jh-regist-area7{
 	padding-bottom:20px;
 }
 .kal-jh-regist-inputBox-text-birth{
@@ -1282,7 +1335,17 @@
 	border-radius: 5px;
     border: 1px solid #0180a3;
 }
-.kal-jh-regist-area7{
+.birth-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
+}
+.kal-jh-regist-area8{
 	padding-bottom:20px;
 }
 .kal-jh-regist-inputBox-text-email{
@@ -1297,8 +1360,15 @@
 	border-radius: 5px;
     border: 1px solid #0180a3;
 }
-.kal-jh-regist-area8{
-	padding-bottom:20px;
+.passportno-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
 }
 .kal-jh-regist-inputBox-text-addr{
 	padding-right:60px;
@@ -1318,7 +1388,7 @@
 	padding:10px;
 	font-size:14px;
 	letter-spacing:1px;
-	margin:20px 112px 0;
+	margin:20px 108px 0;
 	border-radius: 5px;
     border: 1px solid #0180a3;
 }
@@ -1454,6 +1524,36 @@
 	background:#094f68;
 	transition:0.5s;
 }
+.addr-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
+}
+.gender-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
+}
+.email-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:inline-block;
+	position:relative;
+	left:105px;
+	color:red;
+}
 /* mypage navigation css */
 .kal-jh-mypage-navibar-ul{
 	width:100%;
@@ -1478,6 +1578,7 @@
 /* mypage css */
 .kal-jh-mypage-container{
 	width:100%;
+	min-height:100%;
 }
 .kal-jh-mypage-subwrapper{
 	width:960px;
@@ -1716,6 +1817,46 @@
 	background:#094f68;
 	transition:0.5s;
 }
+.mypage-update-pw-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 0 0;
+	text-align:left;
+	display:block;
+	position:relative;
+	left:105px;
+	color:red;
+}
+.mypage-update-email-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:10px 0;
+	text-align:left;
+	display:block;
+	position:relative;
+	left:105px;
+	color:red;
+}
+.mypage-update-phoneno-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:10px 0;
+	text-align:left;
+	display:block;
+	position:relative;
+	left:105px;
+	color:red;
+}
+.mypage-update-addr-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:10px 0;
+	text-align:left;
+	display:block;
+	position:relative;
+	left:105px;
+	color:red;
+}
 .kal-jh-mypage-userReservation-content-wrapper1{
 	border-bottom:1px solid #0180a3;
 }
@@ -1825,7 +1966,7 @@
 /* userDelete page css */
 
 .kal-jh-mypage-userDelete-txt1{
-	padding:20px 20px 30px;
+	padding:70px 20px;
 }
 .kal-jh-mypage-userDelete-txt1 span{
 	display:inline-block;
@@ -1859,6 +2000,16 @@
 	border:1px solid #186686;
 	background:#094f68;
 	transition:0.5s;
+}
+.mypage-delete-pw-check-text{
+	font-size:14px;
+	letter-spacing:1px;
+	padding:20px 25px 0;
+	text-align:left;
+	display:block;
+	position:relative;
+	left:105px;
+	color:red;
 }
 /* review  */
 .kal-review-main-wrapper{
@@ -2752,7 +2903,7 @@
    .kal-after-login-sub-right-menu-search-icon>img{
       position:absolute;
       top:14px;
-      right:25px;
+      right:28px;
    }
    /* 메인 네비게이션 */
    .kal-main-gnb{
@@ -2845,6 +2996,10 @@
       margin-bottom:3px;
    }
    .kal-service-btn-content-question{
+   	  display:inline-block;
+      margin-bottom:5px;
+   }
+   .after-kal-service-btn-content-question{
    	  display:inline-block;
       margin-bottom:3px;
    }
@@ -3108,16 +3263,4 @@
    kimhayun css end
 =============== 
 */
-
-
-
-
-
-
-
-
-
-
-
-
 
